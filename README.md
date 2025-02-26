@@ -36,8 +36,8 @@ A Go-based command-line tool to scan and monitor SNMP-enabled printers on a netw
 
 ### Usage
 Once built, run the utility with the following command:
-    ```bash
-    go build -o snmp-printer-utility
+     ```bash
+     ./snmp-printer-utility -cidr 192.168.1.0/24 -community public -workers 10
 
 ### Flags
 
