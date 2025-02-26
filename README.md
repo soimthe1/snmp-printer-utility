@@ -62,3 +62,27 @@ Once built, run the utility with the following command:
     - Color Ink: 45 (45% of 100)
   Paper Trays:
     - Tray 1: 150 (75% of 200)
+```
+
+### Contributing
+```plaintext
+    Contributions are welcome! Please:
+```
+
+### Fork the repository.
+```plaintext
+Create a feature branch (git checkout -b feature-name).
+Commit your changes (git commit -m "Add feature").
+Push to the branch (git push origin feature-name).
+Open a Pull Request.
+```
+
+### License
+```plaintext
+This project is licensed under the MIT License - see the LICENSE file for details.
+```
+
+### Acknowledgments
+```plaintext
+Built with gosnmp for SNMP functionality.
+```
