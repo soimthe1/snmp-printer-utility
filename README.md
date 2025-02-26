@@ -37,3 +37,24 @@ A Go-based command-line tool to scan and monitor SNMP-enabled printers on a netw
 Once built, run the utility with the following command:
 ```bash
 ./snmp-printer-utility -cidr 192.168.1.0/24 -community public -workers 10
+
+Flags
+-cidr: Network range to scan (default: 192.168.1.0/24)
+-community: SNMP community string (default: public)
+-workers: Number of concurrent scanners (default: 10)
+
+Example Output
+🔎 Scanning network 192.168.1.0/24 with 10 workers for SNMP-enabled printers...
+🎯 Found printer: 192.168.1.100 → HP DeskJet 1300
+
+✅ Found 1 SNMP printers:
+
+🖨️ Printer Report for 192.168.1.100:
+  Printer Name: HP DeskJet 1300
+  Printer Status: idle
+  Total Pages Printed: 54321
+  Supplies:
+    - Black Ink: 80 (80% of 100)
+    - Color Ink: 45 (45% of 100)
+  Paper Trays:
+    - Tray 1: 150 (75% of 200)
