@@ -65,17 +65,14 @@ Once built, run the utility with the following command:
 ```
 
 ### Contributing
-```plaintext
-    Contributions are welcome! Please:
-```
+Contributions are welcome! Please:
 
 ### Fork the repository.
-```plaintext
-Create a feature branch (git checkout -b feature-name).
-Commit your changes (git commit -m "Add feature").
-Push to the branch (git push origin feature-name).
-Open a Pull Request.
-```
+- Create a feature branch (git checkout -b feature-name).
+- Commit your changes (git commit -m "Add feature").
+- Push to the branch (git push origin feature-name).
+- Open a Pull Request.
+
 
 ### License
 ```plaintext
