@@ -75,11 +75,8 @@ Contributions are welcome! Please:
 
 
 ### License
-```plaintext
 This project is licensed under the MIT License - see the LICENSE file for details.
-```
+
 
 ### Acknowledgments
-```plaintext
 Built with gosnmp for SNMP functionality.
-```
