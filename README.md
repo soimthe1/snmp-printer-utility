@@ -38,12 +38,12 @@ Once built, run the utility with the following command:
 ```bash
 ./snmp-printer-utility -cidr 192.168.1.0/24 -community public -workers 10
 
-Flags
--cidr: Network range to scan (default: 192.168.1.0/24)
--community: SNMP community string (default: public)
--workers: Number of concurrent scanners (default: 10)
+## Flags
+    -cidr: Network range to scan (default: 192.168.1.0/24)
+    -community: SNMP community string (default: public)
+    -workers: Number of concurrent scanners (default: 10)
 
-Example Output
+### Example Output
 🔎 Scanning network 192.168.1.0/24 with 10 workers for SNMP-enabled printers...
 🎯 Found printer: 192.168.1.100 → HP DeskJet 1300
 
