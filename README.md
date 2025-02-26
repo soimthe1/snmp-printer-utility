@@ -26,32 +26,37 @@ A Go-based command-line tool to scan and monitor SNMP-enabled printers on a netw
    ```bash
    git clone https://github.com/soimthe1/snmp-printer-utility.git
    cd snmp-printer-utility
+   ```
+
 2. **Install Dependencies**: Ensure you have Go installed, then download the required Go modules:
    ```bash
    go mod download
+   ```
+
 3. **Build the binary**: Compile the tool into an executable:
    ```bash
    go build -o snmp-printer-utility
+   ```
 
-
-### Usage
+## Usage
 Once built, run the utility with the following command:
-     ```bash
-     ./snmp-printer-utility -cidr 192.168.1.0/24 -community public -workers 10
+```bash
+./snmp-printer-utility -cidr 192.168.1.0/24 -community public -workers 10
+```
 
-### Flags
+## Flags
 
 - `-cidr`: Network range to scan (default: `192.168.1.0/24`)
 - `-community`: SNMP community string (default: `public`)
 - `-workers`: Number of concurrent scanners (default: `10`)
 
-### Example Output
+## Example Output
 
 ```plaintext
 🔎 Scanning network 192.168.1.0/24 with 10 workers for SNMP-enabled printers...
 🎯 Found printer: 192.168.1.100 → HP DeskJet 1300
 
-✅ Found 1 SNMP printers:
+✅ Found 1 SNMP printer:
 
 🖨️ Printer Report for 192.168.1.100:
   Printer Name: HP DeskJet 1300
@@ -65,18 +70,16 @@ Once built, run the utility with the following command:
 ```
 
 ## Contributing
-Contributions are welcome! Please:
+Contributions are welcome! Please follow these steps:
 
-## Fork the repository.
-- Create a feature branch (`git checkout -b feature-name`).
-- Commit your changes (`git commit -m "Add feature"`).
-- Push to the branch (`git push origin feature-name`).
-- Open a Pull Request.
-
+1. Fork the repository.
+2. Create a feature branch (`git checkout -b feature-name`).
+3. Commit your changes (`git commit -m "Add feature"`).
+4. Push to the branch (`git push origin feature-name`).
+5. Open a Pull Request.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
 
 ## Acknowledgments
 Built with gosnmp for SNMP functionality.
